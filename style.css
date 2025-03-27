@@ -9,34 +9,42 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    background-color:blueviolet
+    margin: 20;
+    padding: 10px;
+    max-width: 300px;
+    margin: 20 auto;
+}
+
 header {
     text-align: center;
     margin: 20px 0;
 }
 
 h1 {
-    color: #FFB800;
+    color: purple;
     background-color: rgba();
     font-size: 48px;
     text-shadow: 2px 2px #fff;
 }
 
 h2 {
-    color: #FF9900;
-    border-bottom: 2px dashed #FF9900;
+    color: lightpink;
+    border-bottom: 2px dashed pink;
     padding-bottom: 5px;
 }
 
 .profile-pic {
     border-radius: 50%;
-    border: 5px solid #FFB800;
+    border: 5px solid lightblue;
     width: 200px;
     height: 200px; 
     object-fit: cover;
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: palevioletred;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
@@ -62,7 +70,7 @@ ul {
 
 .favorite-item img {
     border-radius: 10px;
-    border: 3px solid #FFB800;
+    border: 3px solid lightblue;
     width: 200px;
     height: 200px; 
     object-fit: cover;
